@@ -5,10 +5,10 @@
 ![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:0d1527&height=220&section=header&text=HAMZA%20BOUBAKAR%20SEDDIK&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20|%20Multi-Platform%20Developer&descFontSize=15&descAlignY=65&descAlign=50)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Role-Software%20Engineer-009688?style=for-the-badge&logo=codefactor&logoColor=white" alt="Role"/>
-  <img src="https://img.shields.io/badge/Institution-MFEP%20Algeria-0F172A?style=for-the-badge&logo=algeria&logoColor=white" alt="Institution"/>
-  <img src="https://img.shields.io/badge/Achievement-1st%20Place%20Hackathon%20Winner-gold?style=for-the-badge&logo=trophy&logoColor=black" alt="Hackathon Winner"/>
-  <img src="https://img.shields.io/badge/Location-Algiers%2C%20Algeria-10B981?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location"/>
+  <img src="https://img.shields.io/badge/Role-Software%20Engineer-009688?style=for-the-badge&amp;logo=codefactor&amp;logoColor=white" alt="Role"/>
+  <img src="https://img.shields.io/badge/Institution-MFEP%20Algeria-0F172A?style=for-the-badge&amp;logo=algeria&amp;logoColor=white" alt="Institution"/>
+  <img src="https://img.shields.io/badge/Achievement-1st%20Place%20Hackathon%20Winner-gold?style=for-the-badge&amp;logo=trophy&amp;logoColor=black" alt="Hackathon Winner"/>
+  <img src="https://img.shields.io/badge/Location-Algiers%2C%20Algeria-10B981?style=for-the-badge&amp;logo=google-maps&amp;logoColor=white" alt="Location"/>
 </p>
 
 </div>
@@ -78,19 +78,15 @@
 
 ---
 
-### 📊 إحصائيات ونشاط التطوير | GitHub Metrics & Activity
+### 📊 إحصائيات ونشاط التطوير | GitHub Metrics & Repository Activity
 
 <div align="center">
 
-![Hamza GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hamza2024-CODE&show_icons=true&theme=teal&count_private=true&hide_border=true)
-
-<br/>
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza2024-CODE&layout=compact&theme=teal&hide_border=true)
-
-<br/>
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Hamza2024-CODE&theme=teal&hide_border=true)
+[![Followers](https://img.shields.io/github/followers/Hamza2024-CODE?style=for-the-badge&logo=github&color=009688&label=GitHub%20Followers)](https://github.com/Hamza2024-CODE)
+[![Stars](https://img.shields.io/github/stars/Hamza2024-CODE/hamza-Portfolio?style=for-the-badge&logo=github&color=gold&label=Portfolio%20Stars)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
+[![Commits](https://img.shields.io/github/commit-activity/y/Hamza2024-CODE/hamza-Portfolio?style=for-the-badge&logo=git&color=10B981&label=Commit%20Activity)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
+[![Repo Size](https://img.shields.io/github/repo-size/Hamza2024-CODE/hamza-Portfolio?style=for-the-badge&logo=github&color=0F172A&label=Repository%20Size)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
+[![License](https://img.shields.io/github/license/Hamza2024-CODE/hamza-Portfolio?style=for-the-badge&logo=opensourceinitiative&color=blue&label=License)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
 
 </div>
 
