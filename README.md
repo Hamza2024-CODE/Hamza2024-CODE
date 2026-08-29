@@ -1,23 +1,23 @@
 <div align="center">
 
   <!-- Animated Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:0d1527&height=220&section=header&text=HAMZA%20BOUBAKAR%20SEDDIK&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA%20%D9%88%D9%85%D8%B7%D9%88%D8%B1%20%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A7%D8%AA%20%7C%20Software%20Engineer%20%26%20Multi-Platform%20Developer&descFontSize=16&descAlignY=65&descAlign=50" width="100%" alt="Hamza Boubakar Seddik Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:0d1527&height=220&section=header&text=HAMZA%20BOUBAKAR%20SEDDIK&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA%20%D9%88%D9%85%D8%B7%D9%88%D8%B1%20%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A7%D8%AA%20%7C%20Software%20Engineer%20%26%20Multi-Platform%20Developer&descFontSize=15&descAlignY=65&descAlign=50" width="100%" alt="Hamza Boubakar Seddik Header"/>
 
   <br/>
 
   <!-- Dynamic Badges -->
   <p align="center">
     <a href="https://github.com/Hamza2024-CODE">
-      <img src="https://img.shields.io/badge/Role-Software%20Engineer-009688?style=for-the-badge&logo=codeforces&logoColor=white" alt="Role"/>
+      <img src="https://img.shields.io/badge/Role-Software%20Engineer-009688?style=for-the-badge&logo=codefactor&logoColor=white" alt="Role"/>
     </a>
     <a href="https://github.com/Hamza2024-CODE">
-      <img src="https://img.shields.io/badge/Institution-MFEP%20Algeria-0F172A?style=for-the-badge&logo=government&logoColor=white" alt="Institution"/>
+      <img src="https://img.shields.io/badge/Institution-MFEP%20Algeria-0F172A?style=for-the-badge&logo=algeria&logoColor=white" alt="Institution"/>
     </a>
     <a href="https://github.com/Hamza2024-CODE">
-      <img src="https://img.shields.io/badge/Achievement-1st%20Place%20Hackathon%20Winner%202026-gold?style=for-the-badge&logo=trophy&logoColor=black" alt="Hackathon Winner"/>
+      <img src="https://img.shields.io/badge/Achievement-1st%20Place%20Hackathon%20Winner-gold?style=for-the-badge&logo=trophy&logoColor=black" alt="Hackathon Winner"/>
     </a>
     <a href="https://github.com/Hamza2024-CODE">
-      <img src="https://img.shields.io/badge/Location-Algiers%2C%20Algeria-10B981?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
+      <img src="https://img.shields.io/badge/Location-Algiers%2C%20Algeria-10B981?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location"/>
     </a>
   </p>
 
@@ -27,15 +27,21 @@
 
 ### 🇩🇿 نبذة عني | About Me
 
-<div dir="rtl">
-
+#### 📌 باللغة العربية (Arabic Version):
 👋 مرحباً بكم! أنا **حمزة بوبكر الصديق** (Hamza Boubakar Seddik)، مهندس برمجيات ومطور متعدد المنصات بوزارة التكوين والتعليم المهنيين (MFEP) بالجزائر العاصمة.
 
 - 🚀 **التخصص**: متخصص في بناء الأنظمة الرقمية المؤسسية، تطبيقات الـ ERP، الهندسة المعمارية للميكروسيرفيس، تصميم واجهات الـ REST APIs، وتطبيقات الويب والموبايل التقدمية PWA.
 - 💡 **الخبرة**: 7+ سنوات من التطوير الهندسي المتكامل من تصميم قواعد البيانات إلى النشر التشغيلي السحابي.
 - 🏆 **الإنجازات**: الفائز بالمركز الأول في الهاكاثون الوطني لتطوير الأنظمة والتحول الرقمي لعام 2026.
 
-</div>
+<br/>
+
+#### 🇬🇧 English Version:
+👋 Welcome! I am **Hamza Boubakar Seddik**, Software Engineer & Multi-Platform Developer at the **Ministry of Vocational Training and Education (MFEP)** in Algiers, Algeria.
+
+- 🚀 **Specialization**: Enterprise Systems Architecture, ERP Platforms, Microservices, RESTful APIs, and Cross-Platform PWAs.
+- 💡 **Experience**: 7+ years of hands-on software engineering, DB design, and cloud production operations.
+- 🏆 **Achievements**: 1st Place Winner at the National Digital Transformation Hackathon 2026.
 
 ---
 
@@ -43,7 +49,7 @@
 
 <div align="center">
 
-| الفئة / Domain | التقنيات وأطر العمل / Technologies |
+| Domain / المجال | Technologies & Tools / التقنيات والأدوات |
 | :--- | :--- |
 | **Languages** | `PHP 8` · `C#` · `Java` · `JavaScript (ES6+)` · `SQL` · `C/C++` |
 | **Backend & Frameworks** | `Laravel` · `ASP.NET Core` · `Java EE` · `RESTful APIs` · `Microservices` |
@@ -58,10 +64,10 @@
 
 <div align="center">
 
-  <!-- Badges Grid -->
+  <!-- Verified Badges Grid -->
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS"/>
@@ -76,18 +82,14 @@
 
 ### 🏛️ المشاريع والأنظمة المؤسسية البارزة | Featured Enterprise Systems
 
-<div dir="rtl">
-
-1. 🥇 **[WSAP — منصة مسابقات وورلد سكيلز الجزائر](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
+1. 🥇 **[WSAP — منصة مسابقات وورلد سكيلز الجزائر | WorldSkills Algeria Platform](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
    * نظام إلكتروني متكامل لإدارة المسابقات المهنية الوطنية، حساب التقييمات آلياً، وإصدار الشهادات التنافسية الرقمية.
-2. 🏢 **[Tassyir — نظام الـ ERP المؤسسي لقطاع التكوين المهني](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
+2. 🏢 **[Tassyir — نظام الـ ERP المؤسسي لقطاع التكوين المهني | Tassyir ERP System](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
    * منصة تخطيط الموارد الموحدة لإدارة مراكز التكوين والتعليم المهنيين عبر القطر الوطني.
-3. 📊 **[SGFEP — المنصة الرقمية الوطنية للإحصائيات والتوجيه](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
+3. 📊 **[SGFEP — المنصة الرقمية الوطنية للإحصائيات والتوجيه | SGFEP Government Platform](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
    * منصة حكومية استراتيجية لمتابعة الإحصائيات الوطنية والتوجيه البرمجي لمتخذي القرار بوزارة MFEP.
-4. 🤖 **[Tawjih — محرك التوجيه والتقييم الذكي](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
+4. 🤖 **[Tawjih — محرك التوجيه والتقييم الذكي | Tawjih AI Guidance Engine](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
    * نظام توجيه مهني مدعوم بالذكاء الاصطناعي لاختبار ميول المترشحين وتقديم التوصيات المهنية الآلية.
-
-</div>
 
 ---
 
@@ -95,20 +97,14 @@
 
 <div align="center">
 
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=Hamza2024-CODE&show_icons=true&theme=teal&count_private=true&hide_border=true" alt="Hamza GitHub Stats" width="400"/>
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza2024-CODE&layout=compact&theme=teal&hide_border=true" alt="Top Languages" width="350"/>
-      </td>
-    </tr>
-  </table>
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=Hamza2024-CODE&show_icons=true&theme=teal&count_private=true&hide_border=true" alt="Hamza GitHub Stats" width="450"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza2024-CODE&layout=compact&theme=teal&hide_border=true" alt="Top Languages" width="380"/>
+  </p>
 
   <br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hamza2024-CODE&theme=teal&hide_border=true" alt="GitHub Streak" width="760"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hamza2024-CODE&theme=teal&hide_border=true" alt="GitHub Streak" width="830"/>
 
 </div>
 
