@@ -2,13 +2,13 @@
 
 <div align="center">
 
-![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:0d1527&height=220&section=header&text=HAMZA%20BOUBAKAR%20SEDDIK&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%26%20Multi-Platform%20Developer&descFontSize=15&descAlignY=65&descAlign=50)
+![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:0d1527&height=220&section=header&text=HAMZA%20BOUBAKAR%20SEDDIK&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20|%20Multi-Platform%20Developer&descFontSize=15&descAlignY=65&descAlign=50)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Role-Software%20Engineer-009688?style=for-the-badge&amp;logo=codefactor&amp;logoColor=white" alt="Role"/>
-  <img src="https://img.shields.io/badge/Institution-MFEP%20Algeria-0F172A?style=for-the-badge&amp;logo=algeria&amp;logoColor=white" alt="Institution"/>
-  <img src="https://img.shields.io/badge/Achievement-1st%20Place%20Hackathon%20Winner-gold?style=for-the-badge&amp;logo=trophy&amp;logoColor=black" alt="Hackathon Winner"/>
-  <img src="https://img.shields.io/badge/Location-Algiers%2C%20Algeria-10B981?style=for-the-badge&amp;logo=google-maps&amp;logoColor=white" alt="Location"/>
+  <img src="https://img.shields.io/badge/Role-Software%20Engineer-009688?style=for-the-badge&logo=codefactor&logoColor=white" alt="Role"/>
+  <img src="https://img.shields.io/badge/Institution-MFEP%20Algeria-0F172A?style=for-the-badge&logo=algeria&logoColor=white" alt="Institution"/>
+  <img src="https://img.shields.io/badge/Achievement-1st%20Place%20Hackathon%20Winner-gold?style=for-the-badge&logo=trophy&logoColor=black" alt="Hackathon Winner"/>
+  <img src="https://img.shields.io/badge/Location-Algiers%2C%20Algeria-10B981?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location"/>
 </p>
 
 </div>
@@ -27,7 +27,7 @@
 <br/>
 
 #### 🇬🇧 English Version:
-👋 Welcome! I am **Hamza Boubakar Seddik**, Software Engineer & Multi-Platform Developer at the **Ministry of Vocational Training and Education (MFEP)** in Algiers, Algeria.
+👋 Welcome! I am **Hamza Boubakar Seddik**, Software Engineer and Multi-Platform Developer at the **Ministry of Vocational Training and Education (MFEP)** in Algiers, Algeria.
 
 - 🚀 **Specialization**: Enterprise Systems Architecture, ERP Platforms, Microservices, RESTful APIs, and Cross-Platform PWAs.
 - 💡 **Experience**: 7+ years of hands-on software engineering, DB design, and cloud production operations.
@@ -37,7 +37,7 @@
 
 ### 💻 التقنيات ومحاور التركيز البرمجي | Tech Stack & Expertise
 
-| Domain / المجال | Technologies & Tools / التقنيات والأدوات |
+| Domain / المجال | Technologies and Tools / التقنيات والأدوات |
 | :--- | :--- |
 | **Languages** | `PHP 8` · `C#` · `Java` · `JavaScript (ES6+)` · `SQL` · `C/C++` |
 | **Backend & Frameworks** | `Laravel` · `ASP.NET Core` · `Java EE` · `RESTful APIs` · `Microservices` |
