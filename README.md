@@ -1,274 +1,167 @@
-
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-:root{--teal:#009688;--teal2:#00BFA5;--navy:#0A1628;--card:#0F1E2E;--gold:#F5A623;--muted:#7A9BB0;--white:#E8F4F0}
-body{font-family:'Space Grotesk',sans-serif;background:var(--navy);color:var(--white);min-height:100vh;overflow-x:hidden}
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
-.wrap{max-width:680px;margin:0 auto;padding:1.5rem 1rem}
-
-/* HEADER */
-.hero{text-align:center;padding:2rem 0 1.5rem;border-bottom:1px solid #1A3048}
-.avatar{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,var(--teal),#00897B);display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;font-size:2rem;font-weight:700;color:#fff;position:relative}
-.online-dot{position:absolute;bottom:4px;right:4px;width:12px;height:12px;background:#34D399;border-radius:50%;border:2px solid var(--navy);animation:pulse 2s ease-in-out infinite}
-@keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.4);opacity:.6}}
-.hero-name{font-size:1.6rem;font-weight:700;letter-spacing:-.03em;color:#fff;margin-bottom:.25rem}
-.hero-name span{color:var(--teal)}
-.hero-sub{font-size:.85rem;color:var(--muted);margin-bottom:1rem;font-family:'JetBrains Mono',monospace}
-.badge-row{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;margin-bottom:1rem}
-.badge{display:inline-flex;align-items:center;gap:.35rem;font-size:.72rem;font-weight:500;padding:.28rem .65rem;border-radius:100px;border:1px solid;font-family:'JetBrains Mono',monospace;letter-spacing:.01em}
-.b-teal{background:rgba(0,150,136,.12);border-color:rgba(0,150,136,.35);color:var(--teal2)}
-.b-gold{background:rgba(245,166,35,.1);border-color:rgba(245,166,35,.3);color:#F5C842}
-.b-muted{background:rgba(255,255,255,.05);border-color:#1A3048;color:var(--muted)}
-
-/* STATS TICKER */
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin:1.2rem 0}
-.stat{background:var(--card);border:1px solid #1A3048;border-radius:10px;padding:.9rem;text-align:center;transition:border-color .25s}
-.stat:hover{border-color:rgba(0,150,136,.4)}
-.stat-n{font-size:1.7rem;font-weight:700;color:#fff;line-height:1;font-family:'Space Grotesk',sans-serif}
-.stat-n span{color:var(--teal)}
-.stat-l{font-size:.7rem;color:var(--muted);margin-top:.25rem;letter-spacing:.04em}
-
-/* TERMINAL */
-.term{background:#050D16;border:1px solid #1A3048;border-radius:10px;overflow:hidden;margin:1rem 0}
-.term-bar{display:flex;align-items:center;gap:.4rem;padding:.55rem .85rem;background:#080F18;border-bottom:1px solid #1A3048}
-.dot{width:10px;height:10px;border-radius:50%}
-.d-r{background:#FF5F57}.d-a{background:#FFBD2E}.d-g{background:#28C840}
-.term-ttl{font-size:.68rem;color:var(--muted);margin-left:.3rem;font-family:'JetBrains Mono',monospace;letter-spacing:.04em}
-.term-body{padding:1rem 1.1rem;font-family:'JetBrains Mono',monospace;font-size:.78rem;line-height:1.9;min-height:180px}
-.p{color:var(--teal)}.o{color:var(--muted)}.s{color:#34D399}.w{color:var(--gold)}.k{color:#C084FC}
-.cur{display:inline-block;width:2px;height:.9em;background:var(--teal);vertical-align:text-bottom;animation:blink 1s steps(1) infinite}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
-
-/* PROJECTS */
-.sec-title{font-size:.72rem;color:var(--teal);font-family:'JetBrains Mono',monospace;letter-spacing:.08em;margin:1.4rem 0 .7rem;display:flex;align-items:center;gap:.5rem}
-.sec-title::after{content:'';flex:1;height:1px;background:#1A3048}
-.projects{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
-.pcard{background:var(--card);border:1px solid #1A3048;border-radius:9px;padding:.9rem;cursor:pointer;transition:border-color .2s,transform .15s;position:relative;overflow:hidden}
-.pcard::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--teal),transparent);opacity:0;transition:opacity .3s}
-.pcard:hover{border-color:rgba(0,150,136,.45);transform:translateY(-2px)}
-.pcard:hover::before{opacity:1}
-.p-rank{font-family:'JetBrains Mono',monospace;font-size:.65rem;color:var(--gold);background:rgba(245,166,35,.1);border:1px solid rgba(245,166,35,.2);padding:.15rem .45rem;border-radius:4px;display:inline-block;margin-bottom:.5rem}
-.p-name{font-size:.95rem;font-weight:700;color:#fff;letter-spacing:-.01em;margin-bottom:.15rem}
-.p-ar{font-size:.78rem;color:var(--muted);direction:rtl;margin-bottom:.5rem;font-family:serif}
-.p-desc{font-size:.75rem;color:var(--muted);line-height:1.6}
-
-/* STACK */
-.stack{display:grid;grid-template-columns:repeat(4,1fr);gap:.45rem;margin:.6rem 0}
-.stk{background:var(--card);border:1px solid #1A3048;border-radius:7px;padding:.55rem .5rem;text-align:center;font-size:.7rem;color:var(--muted);transition:all .2s;cursor:default}
-.stk:hover{border-color:rgba(0,150,136,.4);color:var(--white)}
-.stk i{display:block;font-size:1.1rem;margin-bottom:.25rem;color:var(--teal)}
-
-/* TIMELINE */
-.tl{list-style:none;padding:0;margin:.6rem 0}
-.tl-item{display:grid;grid-template-columns:20px 1fr;gap:.7rem;padding-bottom:1.1rem;position:relative}
-.tl-item:not(:last-child) .td::after{content:'';position:absolute;left:9px;top:22px;width:1px;bottom:0;background:#1A3048}
-.td{width:20px;height:20px;border-radius:50%;background:rgba(0,150,136,.15);border:1.5px solid var(--teal);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;position:relative}
-.td-i{width:7px;height:7px;border-radius:50%;background:var(--teal)}
-.tl-yr{font-family:'JetBrains Mono',monospace;font-size:.65rem;color:var(--teal);margin-bottom:.1rem}
-.tl-t{font-size:.82rem;font-weight:500;color:#fff}
-.tl-s{font-size:.72rem;color:var(--muted)}
-
-/* CONTACT */
-.contact{background:var(--card);border:1px solid #1A3048;border-radius:10px;padding:1.1rem;margin:1rem 0;display:flex;flex-direction:column;gap:.55rem}
-.c-link{display:flex;align-items:center;gap:.6rem;font-size:.82rem;color:var(--muted);text-decoration:none;padding:.45rem .6rem;border-radius:7px;transition:background .2s,color .2s}
-.c-link:hover{background:rgba(0,150,136,.08);color:var(--teal)}
-.c-link i{font-size:1rem;color:var(--teal);width:18px;text-align:center}
-
-/* AWARD */
-.award{background:linear-gradient(120deg,#0A1F0A,#08180E);border:1px solid rgba(52,211,153,.3);border-radius:10px;padding:1rem;margin:.6rem 0;display:flex;gap:.8rem;align-items:flex-start}
-.award-icon{width:36px;height:36px;border-radius:8px;background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.25);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.award-icon i{color:#34D399;font-size:1.1rem}
-.award-yr{font-family:'JetBrains Mono',monospace;font-size:.65rem;color:#34D399;margin-bottom:.2rem}
-.award-t{font-size:.88rem;font-weight:700;color:#fff;margin-bottom:.15rem}
-.award-d{font-size:.74rem;color:var(--muted);line-height:1.5}
-
-/* FOOTER */
-.footer{text-align:center;padding:1.2rem 0 .5rem;border-top:1px solid #1A3048;margin-top:1rem}
-.footer-q{font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--teal);margin-bottom:.3rem}
-.footer-s{font-size:.7rem;color:var(--muted)}
-</style>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"/>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
-
-<div class="wrap">
-
-  <!-- HERO -->
-  <div class="hero">
-    <div class="avatar">HBS<div class="online-dot"></div></div>
-    <div class="hero-name">Hamza <span>Boubakar</span> Seddik</div>
-    <div class="hero-sub">Software Engineer · MFEP Algeria · Algiers 🇩🇿</div>
-    <div class="badge-row">
-      <span class="badge b-gold"><i class="ti ti-trophy" aria-hidden="true"></i>Hackathon #1 · 2026</span>
-      <span class="badge b-teal"><i class="ti ti-code" aria-hidden="true"></i>7+ Years Engineering</span>
-      <span class="badge b-muted"><i class="ti ti-building-arch" aria-hidden="true"></i>ERP · Microservices · PWA</span>
-    </div>
-  </div>
-
-  <!-- STATS -->
-  <div class="stats">
-    <div class="stat">
-      <div class="stat-n" id="s1">0<span>+</span></div>
-      <div class="stat-l">Years of engineering</div>
-    </div>
-    <div class="stat">
-      <div class="stat-n" id="s2">0</div>
-      <div class="stat-l">Major systems</div>
-    </div>
-    <div class="stat">
-      <div class="stat-n"><span id="s3">0</span><span>#</span></div>
-      <div class="stat-l">Hackathon rank 2026</div>
-    </div>
-  </div>
-
-  <!-- TERMINAL -->
-  <div class="term">
-    <div class="term-bar">
-      <div class="dot d-r"></div><div class="dot d-a"></div><div class="dot d-g"></div>
-      <div class="term-ttl">hamza@mfep-Algeria ~ portfolio</div>
-    </div>
-    <div class="term-body" id="tb"></div>
-  </div>
-
-  <!-- PROJECTS -->
-  <div class="sec-title"><i class="ti ti-folder-code" aria-hidden="true"></i> featured projects</div>
-  <div class="projects">
-    <div class="pcard">
-      <div class="p-rank"><i class="ti ti-trophy" aria-hidden="true"></i> Hackathon Winner</div>
-      <div class="p-name">WSAP</div>
-      <div class="p-ar">منصة وورلد سكيلز الجزائر</div>
-      <div class="p-desc">National vocational competition platform. Automated scoring & digital certificates.</div>
-    </div>
-    <div class="pcard">
-      <div class="p-rank"><i class="ti ti-building-community" aria-hidden="true"></i> National ERP</div>
-      <div class="p-name">Tassyir</div>
-      <div class="p-ar">نظام ERP المؤسسي</div>
-      <div class="p-desc">Unified ERP spanning all training centers across Algeria at scale.</div>
-    </div>
-    <div class="pcard">
-      <div class="p-rank"><i class="ti ti-chart-bar" aria-hidden="true"></i> Government</div>
-      <div class="p-name">SGFEP</div>
-      <div class="p-ar">المنصة الوطنية للإحصائيات</div>
-      <div class="p-desc">Strategic analytics dashboard for MFEP executive decision-making.</div>
-    </div>
-    <div class="pcard">
-      <div class="p-rank"><i class="ti ti-brain" aria-hidden="true"></i> AI-Powered</div>
-      <div class="p-name">Tawjih</div>
-      <div class="p-ar">محرك التوجيه الذكي</div>
-      <div class="p-desc">AI guidance engine — psychometric profiling & career recommendations.</div>
-    </div>
-  </div>
-
-  <!-- STACK -->
-  <div class="sec-title"><i class="ti ti-stack-2" aria-hidden="true"></i> technology stack</div>
-  <div class="stack">
-    <div class="stk"><i class="ti ti-brand-php" aria-hidden="true"></i>PHP 8</div>
-    <div class="stk"><i class="ti ti-brand-laravel" aria-hidden="true"></i>Laravel</div>
-    <div class="stk"><i class="ti ti-brand-csharp" aria-hidden="true"></i>C# .NET</div>
-    <div class="stk"><i class="ti ti-coffee" aria-hidden="true"></i>Java EE</div>
-    <div class="stk"><i class="ti ti-brand-javascript" aria-hidden="true"></i>JavaScript</div>
-    <div class="stk"><i class="ti ti-database" aria-hidden="true"></i>MySQL</div>
-    <div class="stk"><i class="ti ti-brand-redis" aria-hidden="true"></i>Redis</div>
-    <div class="stk"><i class="ti ti-brand-nginx" aria-hidden="true"></i>Nginx</div>
-    <div class="stk"><i class="ti ti-brand-google-cloud" aria-hidden="true"></i>G. Cloud</div>
-    <div class="stk"><i class="ti ti-device-mobile" aria-hidden="true"></i>PWA</div>
-    <div class="stk"><i class="ti ti-brand-linux" aria-hidden="true"></i>Linux</div>
-    <div class="stk"><i class="ti ti-api" aria-hidden="true"></i>REST API</div>
-  </div>
-
-  <!-- AWARD -->
-  <div class="award">
-    <div class="award-icon"><i class="ti ti-trophy" aria-hidden="true"></i></div>
-    <div>
-      <div class="award-yr"><i class="ti ti-calendar" aria-hidden="true"></i> National Recognition · 2026</div>
-      <div class="award-t">1st Place — National Digital Transformation Hackathon</div>
-      <div class="award-d">Awarded for WSAP — recognized by MFEP for excellence in digital innovation and public-sector engineering at national level.</div>
-    </div>
-  </div>
-
-  <!-- TIMELINE -->
-  <div class="sec-title"><i class="ti ti-timeline" aria-hidden="true"></i> engineering timeline</div>
-  <ul class="tl">
-    <li class="tl-item"><div class="td"><div class="td-i"></div></div><div><div class="tl-yr">2026</div><div class="tl-t">1st Place · National Hackathon</div><div class="tl-s">WSAP — WorldSkills Algeria Platform</div></div></li>
-    <li class="tl-item"><div class="td"><div class="td-i"></div></div><div><div class="tl-yr">2024 – 2026</div><div class="tl-t">Lead Engineer · AI & Analytics</div><div class="tl-s">Tawjih AI Engine · SGFEP Government Platform</div></div></li>
-    <li class="tl-item"><div class="td"><div class="td-i"></div></div><div><div class="tl-yr">2021 – 2024</div><div class="tl-t">Senior Engineer · ERP Systems</div><div class="tl-s">Tassyir National ERP · MFEP Algeria</div></div></li>
-    <li class="tl-item"><div class="td"><div class="td-i"></div></div><div><div class="tl-yr">2018 – 2021</div><div class="tl-t">Software Engineer · MFEP</div><div class="tl-s">Enterprise systems, REST APIs, server infrastructure</div></div></li>
-    <li class="tl-item"><div class="td"><div class="td-i"></div></div><div><div class="tl-yr">2017</div><div class="tl-t">Started software engineering career</div><div class="tl-s">Algiers, Algeria</div></div></li>
-  </ul>
-
-  <!-- CONTACT -->
-  <div class="sec-title"><i class="ti ti-send" aria-hidden="true"></i> get in touch</div>
-  <div class="contact">
-    <a class="c-link" href="mailto:boubakarseddikh@gmail.com"><i class="ti ti-mail" aria-hidden="true"></i>boubakarseddikh@gmail.com</a>
-    <a class="c-link" href="https://www.linkedin.com/in/hamza-boubakare-seddike" target="_blank"><i class="ti ti-brand-linkedin" aria-hidden="true"></i>linkedin.com/in/hamza-boubakare-seddike</a>
-    <a class="c-link" href="https://github.com/Hamza2024-CODE" target="_blank"><i class="ti ti-brand-github" aria-hidden="true"></i>github.com/Hamza2024-CODE</a>
-    <a class="c-link" href="https://hamza-boubakare-seddike.gt.tc/?i=1" target="_blank"><i class="ti ti-world" aria-hidden="true"></i>hamza-boubakare-seddike.gt.tc</a>
-  </div>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    <div class="footer-q">" Build systems that outlast the sprint. "</div>
-    <div class="footer-s"><i class="ti ti-map-pin" aria-hidden="true"></i> Algiers, Algeria · MFEP · 2026</div>
-  </div>
-
+<div align="center">
+<!-- Dynamic Typing Header -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=009688&center=true&vCenter=true&width=700&lines=Hamza+Boubakar+Seddik;Software+Engineer+%7C+Full-Stack+Developer;Enterprise+Systems+Architect;MFEP+Algeria+%F0%9F%87%A9%F0%9F%87%BF;1st+Place+National+Hackathon+2026+%F0%9F%8F%86" alt="Typing SVG" />
+</a>
+<!-- Animated Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:0d1527&height=200&section=header&text=&fontSize=0" width="100%"/>
+<br/>
+<!-- Badges Row -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Role-Software%20Engineer-009688?style=for-the-badge&logo=codefactor&logoColor=white" alt="Role"/>
+  <img src="https://img.shields.io/badge/Institution-MFEP%20Algeria-0F172A?style=for-the-badge&logo=algeria&logoColor=white" alt="Institution"/>
+  <img src="https://img.shields.io/badge/Achievement-1st%20Place%20Hackathon%202026-gold?style=for-the-badge&logo=trophy&logoColor=black" alt="Hackathon"/>
+  <img src="https://img.shields.io/badge/Location-Algiers%2C%20Algeria-10B981?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location"/>
+</p>
+<!-- Profile Views & Followers -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Hamza2024-CODE&label=Profile%20Views&color=009688&style=flat" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/Hamza2024-CODE?label=Followers&style=social" alt="GitHub Followers"/>
+  <img src="https://img.shields.io/github/stars/Hamza2024-CODE?label=Total%20Stars&style=social" alt="GitHub Stars"/>
+</p>
 </div>
-
-<script>
-// Counter animation
-function countUp(id, target, suffix) {
-  let v = 0;
-  const el = document.getElementById(id);
-  const step = Math.ceil(target / 30);
-  const t = setInterval(() => {
-    v = Math.min(v + step, target);
-    el.innerHTML = v + (suffix || '');
-    if (v >= target) clearInterval(t);
-  }, 50);
-}
-setTimeout(() => {
-  countUp('s1', 7, '<span>+</span>');
-  countUp('s2', 4, '');
-  countUp('s3', 1, '');
-}, 400);
-
-// Terminal
-const lines = [
-  {t:'p',c:'whoami'},
-  {t:'o',x:'hamza.boubakar.seddik · MFEP Algeria'},
-  {t:'p',c:'cat awards.json'},
-  {t:'k',x:'{ "rank": 1, "event": "National Hackathon 2026" }'},
-  {t:'p',c:'ls projects/'},
-  {t:'s',x:'wsap/    tassyir/    sgfep/    tawjih/'},
-  {t:'p',c:'./deploy.sh --env production'},
-  {t:'w',x:'▸ Building 4 microservices...'},
-  {t:'s',x:'✓ All services deployed successfully'},
-  {t:'p',c:''},
-];
-const tb = document.getElementById('tb');
-let li = 0, phase = 'cmd';
-function tick() {
-  if (li >= lines.length) { tb.innerHTML += '<span class="cur"></span>'; return; }
-  const ln = lines[li];
-  if (ln.t === 'p') {
-    if (phase === 'cmd') {
-      const d = document.createElement('div');
-      d.innerHTML = `<span class="p">hamza@mfep:~$ </span><span id="ac"></span>`;
-      tb.appendChild(d);
-      const sp = d.querySelector('#ac');
-      const cmd = ln.c; let ci = 0;
-      const iv = setInterval(() => {
-        if (ci <= cmd.length) { sp.textContent = cmd.slice(0, ci++); }
-        else { clearInterval(iv); phase='out'; li++; setTimeout(tick, 400); }
-      }, 55);
-    }
-  } else {
-    const cls = {o:'o',s:'s',w:'w',k:'k'}[ln.t]||'o';
-    const d = document.createElement('div');
-    d.innerHTML = `<span class="${cls}">${ln.x}</span>`;
-    tb.appendChild(d);
-    li++; setTimeout(tick, 160);
-  }
-  tb.scrollTop = 9999;
-}
-setTimeout(tick, 700);
-</script>
+🇩🇿 نبذة عني | About Me | À Propos
+<table>
+<tr>
+<td width="50%" valign="top">
+🇬🇧 English
+👋 Welcome! I am Hamza Boubakar Seddik, Software Engineer and Multi-Platform Developer at the Ministry of Vocational Training and Education (MFEP) in Algiers, Algeria.
+🚀 Specialization: Enterprise Systems Architecture, ERP Platforms, Microservices, RESTful APIs, and Cross-Platform PWAs.
+💡 Experience: 7+ years of hands-on software engineering, DB design, and cloud production operations.
+🏆 Achievements: 1st Place Winner at the National Digital Transformation Hackathon 2026.
+🌐 Mission: Building digital infrastructure that scales across the national territory.
+</td>
+<td width="50%" valign="top" dir="rtl" align="right">
+🇩🇿 العربية
+👋 مرحباً بكم! أنا حمزة بوبكر الصديق، مهندس برمجيات ومطور متعدد المنصات بوزارة التكوين والتعليم المهنيين (MFEP) بالجزائر العاصمة.
+🚀 التخصص: متخصص في بناء الأنظمة الرقمية المؤسسية، تطبيقات الـ ERP، الهندسة المعمارية للميكروسيرفيس، تصميم واجهات الـ REST APIs، وتطبيقات الويب والموبايل التقدمية PWA.
+💡 الخبرة: 7+ سنوات من التطوير الهندسي المتكامل من تصميم قواعد البيانات إلى النشر التشغيلي السحابي.
+🏆 الإنجازات: الفائز بالمركز الأول في الهاكاثون الوطني لتطوير الأنظمة والتحول الرقمي لعام 2026.
+🌐 المهمة: بناء البنية التحتية الرقمية التي تمتد عبر التراب الوطني.
+</td>
+</tr>
+</table>
+🛠️ Tech Stack & Expertise
+💻 Languages
+<p align="left">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C/C++"/>
+</p>
+🏗️ Backend & Frameworks
+<p align="left">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
+  <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core"/>
+  <img src="https://img.shields.io/badge/Java%20EE-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java EE"/>
+  <img src="https://img.shields.io/badge/REST%20APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs"/>
+  <img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=docker&logoColor=white" alt="Microservices"/>
+</p>
+🎨 Frontend & UI/UX
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Vanilla%20JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="Vanilla JS"/>
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA"/>
+</p>
+🗄️ Databases & Cache
+<p align="left">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/Database%20Optimization-10B981?style=for-the-badge&logo=amazondynamodb&logoColor=white" alt="DB Optimization"/>
+</p>
+☁️ DevOps & Cloud
+<p align="left">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud"/>
+  <img src="https://img.shields.io/badge/Huawei%20Cloud-FF0000?style=for-the-badge&logo=huawei&logoColor=white" alt="Huawei Cloud"/>
+  <img src="https://img.shields.io/badge/Server%20Hardening-2D2D2D?style=for-the-badge&logo=security&logoColor=white" alt="Server Hardening"/>
+</p>
+🏛️ Featured Enterprise Systems
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🥇 <a href="https://github.com/Hamza2024-CODE/hamza-Portfolio">WSAP — WorldSkills Algeria</a></h3>
+      <p><em>Competition Management Platform</em></p>
+      <p>Integrated electronic system for managing national vocational competitions, automated scoring calculations, and issuing competitive digital certificates.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=flat-square"/>
+        <img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=flat-square"/>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🏢 <a href="https://github.com/Hamza2024-CODE/hamza-Portfolio">Tassyir ERP</a></h3>
+      <p><em>Enterprise Resource Planning</em></p>
+      <p>Unified resource planning platform for managing vocational training centers across the national territory of Algeria.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white&style=flat-square"/>
+        <img src="https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white&style=flat-square"/>
+        <img src="https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white&style=flat-square"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>📊 <a href="https://github.com/Hamza2024-CODE/hamza-Portfolio">SGFEP Government Platform</a></h3>
+      <p><em>National Statistics & Guidance</em></p>
+      <p>Strategic government platform for tracking national statistics and programmatic guidance for MFEP decision-makers.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white&style=flat-square"/>
+        <img src="https://img.shields.io/badge/Microservices-FF6F00?logo=docker&logoColor=white&style=flat-square"/>
+        <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🤖 <a href="https://github.com/Hamza2024-CODE/hamza-Portfolio">Tawjih AI Guidance Engine</a></h3>
+      <p><em>AI-Powered Career Guidance</em></p>
+      <p>AI-powered vocational guidance system for testing candidate inclinations and delivering automated career recommendations.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square"/>
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat-square"/>
+        <img src="https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white&style=flat-square"/>
+      </p>
+    </td>
+  </tr>
+</table>
+📊 GitHub Analytics
+<div align="center">
+<!-- GitHub Stats -->
+<img src="https://github-readme-stats.vercel.app/api?username=Hamza2024-CODE&show_icons=true&theme=vue-dark&hide_border=true&bg_color=0d1117&title_color=009688&icon_color=009688&text_color=c9d1d9" height="180" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza2024-CODE&layout=compact&theme=vue-dark&hide_border=true&bg_color=0d1117&title_color=009688&text_color=c9d1d9" height="180" alt="Top Languages"/>
+<br/><br/>
+<!-- GitHub Streak -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hamza2024-CODE&theme=vue-dark&hide_border=true&background=0d1117&stroke=009688&ring=009688&fire=10B981&currStreakLabel=009688" alt="GitHub Streak"/>
+<br/><br/>
+<!-- GitHub Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=Hamza2024-CODE&theme=onestar&no-frame=true&row=1&column=6&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+</div>
+🌐 Connect With Me
+<div align="center">
+<a href="mailto:boubakarseddikh@gmail.com">
+  <img src="https://img.shields.io/badge/Email-boubakarseddikh%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="https://www.linkedin.com/in/hamza-boubakare-seddike" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Hamza%20Boubakar%20Seddik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://github.com/Hamza2024-CODE/hamza-Portfolio" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-Live%20Platform-009688?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/>
+</a>
+<a href="https://hamza-boubakare-seddike.gt.tc/?i=1" target="_blank">
+  <img src="https://img.shields.io/badge/Website-hamza--boubakare--seddike.gt.tc-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
+</a>
+</div>
+<div align="center">
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hamza2024-CODE&theme=vue&hide_border=true&bg_color=0d1117&color=009688&line=10B981&point=009688" width="100%" alt="Activity Graph"/>
+<br/><br/>
+<!-- Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:0d1527&height=120&section=footer&text=&fontSize=0" width="100%"/>
+<br/>
+<sub><strong> by <strong> · MFEP Algeria · 2026
+</div>
