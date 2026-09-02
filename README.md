@@ -1,109 +1,127 @@
-# HAMZA BOUBAKAR SEDDIK
-
 <div align="center">
 
-![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:009688,100:0d1527&height=220&section=header&text=HAMZA%20BOUBAKAR%20SEDDIK&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20|%20Multi-Platform%20Developer&descFontSize=15&descAlignY=65&descAlign=50)
+```
+╔══════════════════════════════════════════════════════════════╗
+║   hamza@mfep-Algeria:~$ cat about-me.txt                    ║
+╚══════════════════════════════════════════════════════════════╝
+```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Role-Software%20Engineer-009688?style=for-the-badge&amp;logo=codefactor&amp;logoColor=white" alt="Role"/>
-  <img src="https://img.shields.io/badge/Institution-MFEP%20Algeria-0F172A?style=for-the-badge&amp;logo=algeria&amp;logoColor=white" alt="Institution"/>
-  <img src="https://img.shields.io/badge/Achievement-1st%20Place%20Hackathon%20Winner-gold?style=for-the-badge&amp;logo=trophy&amp;logoColor=black" alt="Hackathon Winner"/>
-  <img src="https://img.shields.io/badge/Location-Algiers%2C%20Algeria-10B981?style=for-the-badge&amp;logo=google-maps&amp;logoColor=white" alt="Location"/>
-</p>
+# حمزة بوبكر الصديق · Hamza Boubakar Seddik
+
+**Software Engineer · Multi-Platform Developer**
+**Ministry of Vocational Training and Education (MFEP) · 🇩🇿 Algiers, Algeria**
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-hamza--boubakare--seddike.gt.tc-009688?style=flat-square)](https://hamza-boubakare-seddike.gt.tc/?i=1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hamza_Boubakar_Seddik-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamza-boubakare-seddike)
+[![Email](https://img.shields.io/badge/Email-boubakarseddikh@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:boubakarseddikh@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Hamza2024--CODE-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hamza2024-CODE)
 
 </div>
 
 ---
 
-### 🇩🇿 نبذة عني | About Me
+## `$ whoami`
 
-#### 📌 باللغة العربية (Arabic Version):
-👋 مرحباً بكم! أنا **حمزة بوبكر الصديق** (Hamza Boubakar Seddik)، مهندس برمجيات ومطور متعدد المنصات بوزارة التكوين والتعليم المهنيين (MFEP) بالجزائر العاصمة.
+> مهندس برمجيات متخصص في بناء الأنظمة الرقمية المؤسسية على المستوى الوطني.
+> Software Engineer building national-scale enterprise digital systems for Algeria's public sector.
 
-- 🚀 **التخصص**: متخصص في بناء الأنظمة الرقمية المؤسسية، تطبيقات الـ ERP، الهندسة المعمارية للميكروسيرفيس، تصميم واجهات الـ REST APIs، وتطبيقات الويب والموبايل التقدمية PWA.
-- 💡 **الخبرة**: 7+ سنوات من التطوير الهندسي المتكامل من تصميم قواعد البيانات إلى النشر التشغيلي السحابي.
-- 🏆 **الإنجازات**: الفائز بالمركز الأول في الهاكاثون الوطني لتطوير الأنظمة والتحول الرقمي لعام 2026.
-
-<br/>
-
-#### 🇬🇧 English Version:
-👋 Welcome! I am **Hamza Boubakar Seddik**, Software Engineer and Multi-Platform Developer at the **Ministry of Vocational Training and Education (MFEP)** in Algiers, Algeria.
-
-- 🚀 **Specialization**: Enterprise Systems Architecture, ERP Platforms, Microservices, RESTful APIs, and Cross-Platform PWAs.
-- 💡 **Experience**: 7+ years of hands-on software engineering, DB design, and cloud production operations.
-- 🏆 **Achievements**: 1st Place Winner at the National Digital Transformation Hackathon 2026.
+- 🏛️ Working at **MFEP Algeria** — designing systems used across thousands of vocational training centers nationwide
+- 🚀 **7+ years** of hands-on engineering: from schema design to cloud production deployment
+- 🏆 **1st Place** — National Digital Transformation Hackathon 2026
+- 🌐 Fluent in **Arabic 🇩🇿** · **French 🇫🇷** · **English 🇬🇧**
+- 🔭 Currently working on: **AI-powered vocational guidance** & **national ERP platform**
+- 💬 Ask me about: `Microservices` · `ERP Architecture` · `Laravel` · `ASP.NET Core` · `PWA`
 
 ---
 
-### 💻 التقنيات ومحاور التركيز البرمجي | Tech Stack & Expertise
+## `$ ls projects/`
 
-| Domain / المجال | Technologies and Tools / التقنيات والأدوات |
-| :--- | :--- |
-| **Languages** | `PHP 8` · `C#` · `Java` · `JavaScript (ES6+)` · `SQL` · `C/C++` |
-| **Backend & Frameworks** | `Laravel` · `ASP.NET Core` · `Java EE` · `RESTful APIs` · `Microservices` |
-| **Frontend & UI/UX** | `HTML5` · `CSS3` · `Tailwind CSS` · `Vanilla JS` · `Cairo & Alexandria Fonts` |
-| **Databases & Cache** | `MySQL` · `MariaDB` · `Redis` · `Database Indexing & Optimization` |
-| **Mobile & Web Apps** | `Progressive Web Apps (PWA)` · `Cross-Platform Mobile` · `HLS Video Streaming` |
-| **DevOps & Cloud** | `Linux Server Hardening` · `Nginx Reverse Proxy` · `Google Cloud` · `Huawei Cloud` |
+| System | Description | Stack |
+|:---|:---|:---|
+| 🥇 **[WSAP](https://github.com/Hamza2024-CODE/hamza-Portfolio)** | WorldSkills Algeria Platform — National vocational competition management, automated scoring & digital certificates | `Laravel` `PWA` `REST API` `MySQL` |
+| 🏢 **[Tassyir](https://github.com/Hamza2024-CODE/hamza-Portfolio)** | National ERP system for all vocational training centers across Algeria | `Microservices` `Redis` `MariaDB` `Laravel` |
+| 📊 **[SGFEP](https://github.com/Hamza2024-CODE/hamza-Portfolio)** | Government analytics & policy decision platform for MFEP executives | `ASP.NET Core` `C#` `Nginx` `MySQL` |
+| 🤖 **[Tawjih](https://github.com/Hamza2024-CODE/hamza-Portfolio)** | AI-driven vocational guidance engine — psychometric profiling & career recommendations | `Java EE` `AI/ML` `HLS` `REST API` |
 
-<br/>
+---
+
+## `$ cat tech-stack.json`
+
+```json
+{
+  "languages":   ["PHP 8", "C#", "Java", "JavaScript ES6+", "SQL", "C/C++"],
+  "backend":     ["Laravel", "ASP.NET Core", "Java EE", "RESTful APIs", "Microservices"],
+  "frontend":    ["Tailwind CSS", "PWA", "HLS Video Streaming", "Vanilla JS", "RTL/Arabic UI"],
+  "databases":   ["MySQL", "MariaDB", "Redis", "Query Optimization", "DB Indexing"],
+  "devops":      ["Linux Server Hardening", "Nginx Reverse Proxy", "Google Cloud", "Huawei Cloud"],
+  "architecture":["ERP Systems", "Domain-Driven Design", "Event-Driven", "Multi-Tenant SaaS"]
+}
+```
+
+---
+
+## `$ cat skills.txt`
 
 <div align="center">
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP_8-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Java](https://img.shields.io/badge/Java_EE-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Huawei Cloud](https://img.shields.io/badge/Huawei_Cloud-FF0000?style=for-the-badge&logo=huawei&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
 
 </div>
 
 ---
 
-### 🏛️ المشاريع والأنظمة المؤسسية البارزة | Featured Enterprise Systems
+## `$ git log --oneline --graph`
 
-1. 🥇 **[WSAP — منصة مسابقات وورلد سكيلز الجزائر | WorldSkills Algeria Platform](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
-   * نظام إلكتروني متكامل لإدارة المسابقات المهنية الوطنية، حساب التقييمات آلياً، وإصدار الشهادات التنافسية الرقمية.
-2. 🏢 **[Tassyir — نظام الـ ERP المؤسسي لقطاع التكوين المهني | Tassyir ERP System](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
-   * منصة تخطيط الموارد الموحدة لإدارة مراكز التكوين والتعليم المهنيين عبر القطر الوطني.
-3. 📊 **[SGFEP — المنصة الرقمية الوطنية للإحصائيات والتوجيه | SGFEP Government Platform](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
-   * منصة حكومية استراتيجية لمتابعة الإحصائيات الوطنية والتوجيه البرمجي لمتخذي القرار بوزارة MFEP.
-4. 🤖 **[Tawjih — محرك التوجيه والتقييم الذكي | Tawjih AI Guidance Engine](https://github.com/Hamza2024-CODE/hamza-Portfolio)**
-   * نظام توجيه مهني مدعوم بالذكاء الاصطناعي لاختبار ميول المترشحين وتقديم التوصيات المهنية الآلية.
+```
+* 🏆 2026  — 1st Place · National Digital Transformation Hackathon (WSAP)
+* 🤖 2025  — Shipped Tawjih AI Guidance Engine (national rollout)
+* 📊 2024  — Deployed SGFEP Government Analytics Platform (MFEP)
+* 🏢 2022  — Tassyir ERP — now active across all national training centers
+* ⚙️  2021  — Senior Engineer milestone · full architecture ownership
+* 🚀 2018  — Joined MFEP Algeria as Software Engineer
+* 🌱 2017  — Started software engineering career · Algiers, Algeria
+```
 
 ---
 
-### 📊 إحصائيات ونشاط التطوير | GitHub Metrics & Repository Activity
+## `$ ./get-in-touch.sh`
 
 <div align="center">
 
-[![Followers](https://img.shields.io/github/followers/Hamza2024-CODE?style=for-the-badge&logo=github&color=009688&label=GitHub%20Followers)](https://github.com/Hamza2024-CODE)
-[![Stars](https://img.shields.io/github/stars/Hamza2024-CODE/hamza-Portfolio?style=for-the-badge&logo=github&color=gold&label=Portfolio%20Stars)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
-[![Commits](https://img.shields.io/github/commit-activity/y/Hamza2024-CODE/hamza-Portfolio?style=for-the-badge&logo=git&color=10B981&label=Commit%20Activity)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
-[![Repo Size](https://img.shields.io/github/repo-size/Hamza2024-CODE/hamza-Portfolio?style=for-the-badge&logo=github&color=0F172A&label=Repository%20Size)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
-[![License](https://img.shields.io/github/license/Hamza2024-CODE/hamza-Portfolio?style=for-the-badge&logo=opensourceinitiative&color=blue&label=License)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
+| Channel | Link |
+|:---:|:---:|
+| 📧 Email | [boubakarseddikh@gmail.com](mailto:boubakarseddikh@gmail.com) |
+| 💼 LinkedIn | [hamza-boubakare-seddike](https://www.linkedin.com/in/hamza-boubakare-seddike) |
+| 🌐 Portfolio | [hamza-boubakare-seddike.gt.tc](https://hamza-boubakare-seddike.gt.tc/?i=1) |
+| 🐙 GitHub | [Hamza2024-CODE](https://github.com/Hamza2024-CODE) |
 
 </div>
 
 ---
 
-### 📬 التواصل والروابط الرسمية | Connect & Contact
-
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-boubakarseddikh%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:boubakarseddikh@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hamza%20Boubakar%20Seddik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamza-boubakare-seddike)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Platform-009688?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hamza2024-CODE/hamza-Portfolio)
+```
+╔══════════════════════════════════════════════════════╗
+║  "Build systems that outlast the sprint."           ║
+║                         — Hamza Boubakar Seddik     ║
+╚══════════════════════════════════════════════════════╝
+```
 
-</div>
+*Designed with precision · Built for national scale · 🇩🇿 Made in Algeria*
 
-<br/>
-
-<div align="center">
-  <sub>Designed with ❤️ and built for International Software Engineering Standards by <strong>Hamza Boubakar Seddik</strong></sub>
 </div>
